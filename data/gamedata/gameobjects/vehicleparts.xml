@@ -2336,6 +2336,91 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 					Breakable4   = "3"
 				/>
 		</Prototype>
+		
+		<!-- Cruiser -->
+		<Prototype
+			Class				= "Cabin"
+			Name				= "gdeCruiserCab01"
+			ModelFile			= "cruiserCab01"
+			ResourceType			= "CRUISER_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "60"
+			DurCoeffsForDamageTypes	= "10 10 -25"
+			VisibleInEncyclopedia = "false"
+			Mass				= "7"
+			EngineHighSound			= "ET_S_ENGINE_CRUISER_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+			MaxPower			= "120"
+			MaxTorque			= "125"
+			Price				= "50000"	
+			MaxSpeed			= "160.0"
+			LoadPoints			= "LP_BIG01" >
+			
+			
+			
+			<!-- Add cab gadgets -->
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "1" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "3" />         
+			</GadgetDescription>
+			
+			
+			
+				<GroupsHealth
+					Main   = "5"	
+					Breakable1   = "0.5"	
+				    Breakable2   = "1.25"
+					Breakable3   = "0.75"
+					Breakable4   = "0.75"
+				/>
+		</Prototype>
+
+		<Prototype
+			Class				= "Cabin"
+			Name				= "gdeCruiserCab02"
+			ModelFile			= "cruiserCab02"
+			ResourceType			= "CRUISER_CABIN"
+			NodeScale			= "1 1 1"
+			Durability			= "40"
+			DurCoeffsForDamageTypes	= "5 5 -10"
+			VisibleInEncyclopedia = "false"
+			Mass				= "7"
+			MaxPower			= "120"
+			EngineHighSound			= "ET_S_ENGINE_CRUISER_1_HIGH"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
+			MaxTorque			= "150"
+			Price				= "70000"	
+			MaxSpeed			= "140.0"
+			LoadPoints			= "LP_BIG01" >
+			
+			
+			
+			<!-- Add cab gadgets -->
+			<GadgetDescription>
+				<Slot
+					ResourceType	= "GADGET_COMMON"
+					MaxAmount	= "3" />
+
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "1" />         
+			</GadgetDescription>
+			
+			
+			
+				<GroupsHealth
+					Main   = "5"	
+					Breakable1   = "0.5"	
+				    Breakable2   = "0.5"
+					Breakable3   = "1.25"
+					Breakable4   = "1.25"
+				/>
+		</Prototype>
 			
 		
 		
@@ -3837,6 +3922,79 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				
 				
 			</RepositoryDescription>
+		</Prototype>
+		
+		<!-- Cruiser -->
+		<Prototype
+			Class				= "Basket"
+			Name				= "gdeCruiserCargo01"
+			ModelFile			= "cruiserCargo01"
+			ResourceType			= "CRUISER_BASKET"
+			Durability			= "140"
+			DurCoeffsForDamageTypes		= "15 15 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+
+			Price				= "100000"
+			RepairCoef			= "0.2"
+
+			Mass				= "15.0"
+			LoadPoints			= "LP_GIANT01" >
+			<RepositoryDescription
+				RepositorySize		= "9 8">
+				<Slot
+					Name		= "BASKET_GIANT_GUN"
+					Pos		= "5 6"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "1.25"	
+			    Breakable2   = "1.25"
+				Breakable3   = "0.5"
+				Breakable4   = "0.5"
+			/>			
+		</Prototype>
+
+		<Prototype
+			Class				= "Basket"
+			Name				= "gdeCruiserCargo02"
+			ModelFile			= "cruiserCargo02"
+			ResourceType			= "CRUISER_BASKET"
+			Durability			= "160"
+			DurCoeffsForDamageTypes		= "20 20 0"
+			NodeScale			= "1 1 1"
+			BlowEffect	= "ET_PS_VEH_PART_BLOW_BIG_CARGO"
+
+
+			Price				= "140000"
+			RepairCoef			= "0.2"
+
+			Mass				= "20.0"
+			LoadPoints			= "LP_BIG01 LP_SIDE01L LP_SIDE01R" >
+			<RepositoryDescription
+				RepositorySize		= "10 9">
+				<Slot
+					Name		= "BASKET_BIG_GUN_0"
+					Pos		= "5 2"
+				/>
+				<Slot
+					Name		= "BASKET_SIDE_GUN_0"
+					Pos		= "2 7"
+				/>
+			</RepositoryDescription>
+			<GroupsHealth
+				Main   = "0"	
+				Breakable1   = "0.3"	
+			    Breakable2   = "0.3"
+				Breakable3   = "0.5"
+				Breakable4   = "0.3"
+				Breakable5   = "1.25"
+				Breakable6   = "1.25"
+				Breakable7   = "1.25"
+				Breakable8  = "1.25"
+			/>			
 		</Prototype>
 		
 		

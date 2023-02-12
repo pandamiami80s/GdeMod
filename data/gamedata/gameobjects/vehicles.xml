@@ -3341,6 +3341,63 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		</Wheels>
 	</Prototype>
 	
+	<!-- Cruiser -->
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "gdeCruiser"
+		ResourceType			= "VEHICLE"
+
+		DiffRatio		= "4.0"
+		MaxEngineRpm		= "5000"
+		LowGearShiftLimit	= "1000"
+		HighGearShiftLimit	= "2000"
+
+		SteeringSpeed		= "0.9"
+
+		HornSound		= "ET_S_HORN01"
+
+		DecisionMatrix		= "vehiclemain.lua"
+
+		LookRadius		= "200.0"
+		IntersectionRadius	= "5.5"
+		TakingRadius		= "30.0"
+
+		MassSize		= "10 1 5"
+		MassTranslation		= "0 -1.6 0"
+		DestroyEffectPiercing	= "ET_PS_VEH_EXP1_MED"
+		DestroyEffectBlast	= "ET_PS_VEH_EXP2_MED"
+		DestroyEffectEnergy	= "ET_PS_VEH_EXP3_MED"
+		DestroyEffectWater	= "ET_PS_VEH_EXP2_MED"
+
+		Abstract 		= "true"	>
+
+		<MainPartDescription id = "CHASSIS" partResourceType = "CRUISER_CHASSIS">
+			<PartDescription id = "CABIN" partResourceType = "CRUISER_CABIN" lpName = "LP_CAB01" >
+				<PartDescription id="CABIN_BIG_GUN_1" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
+			</PartDescription>
+			<PartDescription id = "BASKET" partResourceType="CRUISER_BASKET" lpName = "LP_BSK01" >
+				<PartDescription id="BASKET_BIG_GUN_0" partResourceType = "BIG_GUN" lpName = "LP_BIG01" />
+				<PartDescription id="BASKET_GIANT_GUN" partResourceType = "GIANT_GUN" lpName = "LP_GIANT01" />
+				<PartDescription id="BASKET_SIDE_GUN_0" partResourceType = "SIDE_GUN" lpName = "LP_SIDE01L,LP_SIDE01R" />
+			</PartDescription>
+		</MainPartDescription>
+		
+		<Parts>
+			<Part id = "CHASSIS"			Prototype = "cruiserChassis" />
+		</Parts>
+
+		<Wheels>
+			<Wheel Prototype = "cruiserWheel01l" steering = "correct" />
+			<Wheel Prototype = "cruiserWheel01r" steering = "correct" />
+			<Wheel Prototype = "cruiserWheel01l" steering = "correct" />
+			<Wheel Prototype = "cruiserWheel01r" steering = "correct" />
+			<Wheel Prototype = "cruiserWheel01l" />
+			<Wheel Prototype = "cruiserWheel01r" />
+			<Wheel Prototype = "cruiserWheel01l" />
+			<Wheel Prototype = "cruiserWheel01r" />
+		</Wheels>
+	</Prototype>
+	
 	
 	
 	<!-- GDE MOD 20230211 -->
@@ -3378,6 +3435,18 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		<Parts>
 			<Part id = "CABIN"			Prototype = "gdeHunterCab01" />
 			<Part id = "BASKET"			Prototype = "gdeHunterCargo01" />
+		</Parts>
+	</Prototype>
+	
+	<!-- Cruiser -->
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "gdeCruiserForSale"
+		ParentPrototype 	= "gdeCruiser"
+		VisibleInEncyclopedia	= "true">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "gdeCruiserCab01" />
+			<Part id = "BASKET"			Prototype = "gdeCruiserCargo01" />
 		</Parts>
 	</Prototype>
 	

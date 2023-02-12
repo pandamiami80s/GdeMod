@@ -892,6 +892,29 @@
 					PosY="50"
 					Flags="16"
 					Prototype="gdeHunterCargo02" />
+					
+				<!-- Cruiser -->
+				<Item
+					PosX="5"
+					PosY="40"
+					Flags="16"
+					Prototype="gdeCruiserCab01" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="gdeCruiserCab02" />
+			
+				<Item
+					PosX="5"
+					PosY="50"
+					Flags="16"
+					Prototype="gdeCruiserCargo01" />
+				<Item
+					PosX="5"
+					PosY="50"
+					Flags="16"
+					Prototype="gdeCruiserCargo02" />
 				
 			</CabinsAndBaskets>
 
@@ -919,6 +942,13 @@
 					PosY="0"
 					Flags="16"
 					Prototype="gdeHunterForSale">
+				</Item>
+				
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="gdeCruiserForSale">
 				</Item>
 			</Vehicles>
 			

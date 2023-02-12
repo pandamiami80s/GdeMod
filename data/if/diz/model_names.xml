@@ -1876,7 +1876,6 @@
 		id="gdeHunterCab03"
 		locForm="0"
 		value="Стрела" />
-	-->
 	
 	<Item
 		id="gdeHunterCargo01"
@@ -1892,6 +1891,32 @@
 		id="gdeHunterForSale"
 		locForm="0"
 		value="Охотник" />
+		
+	<!-- Cruiser -->
+	<Item
+		id="gdeCruiserCab01"
+		locForm="0"
+		value="Маз" />-
+
+	<Item
+		id="gdeCruiserCab02"
+		locForm="1"
+		value="Ураган" />-
+	
+	<Item
+		id="gdeCruiserCargo01"
+		locForm="0"
+		value="Смерч" />
+		
+	<Item
+		id="gdeCruiserCargo02"
+		locForm="0"
+		value="Эльбрус" />
+		
+	<Item
+		id="gdeCruiserForSale"
+		locForm="0"
+		value="Крейсер" />
 		
 		
 		

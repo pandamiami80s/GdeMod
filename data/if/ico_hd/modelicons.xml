@@ -389,10 +389,15 @@
 	<Item id="gdeHunterCab02"   	file="data\if\ico\InventoryDlg\gdeHunter\gdeHunter_cab02.dds" file1=""/>
 	-->
 	<Item id="gdeHunterCab03"   	file="data\if\ico\InventoryDlg\gdeHunter\gdeHunter_cab03.dds" file1=""/> 
-	
 	<Item id="gdeHunterCargo01" 	file="data\if\ico\InventoryDlg\gdeHunter\gdeHunter_cargo01.dds" file1=""/>
 	<Item id="gdeHunterCargo02" 	file="data\if\ico\InventoryDlg\gdeHunter\gdeHunter_cargo02.dds" file1=""/>
    
+	<!-- Cruiser -->
+	<Item id="gdeCruiserCab01"    	file="data\if\ico\InventoryDlg\gdeCruiser\gdeCruiser_cab01.dds" file1=""/>
+	<Item id="gdeCruiserCab02"   	file="data\if\ico\InventoryDlg\gdeCruiser\gdeCruiser_cab02.dds" file1=""/>
+	<Item id="gdeCruiserCargo01" 	file="data\if\ico\InventoryDlg\gdeCruiser\gdeCruiser_cargo01.dds" file1=""/>
+	<Item id="gdeCruiserCargo02" 	file="data\if\ico\InventoryDlg\gdeCruiser\gdeCruiser_cargo02.dds" file1=""/>
    
+	
    
 </icons>
