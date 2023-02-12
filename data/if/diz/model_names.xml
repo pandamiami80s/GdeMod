@@ -1874,7 +1874,7 @@
 	
 	<Item
 		id="gdeHunterCab03"
-		locForm="0"
+		locForm="1"
 		value="Стрела" />
 	
 	<Item
@@ -1900,7 +1900,7 @@
 
 	<Item
 		id="gdeCruiserCab02"
-		locForm="1"
+		locForm="0"
 		value="Ураган" />-
 	
 	<Item
