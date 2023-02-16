@@ -548,6 +548,41 @@
 					PosY="100"
 					Flags="16"
 					Prototype="uralCab05" />
+					
+					
+					
+				<!-- GDE MOD 20230216 -->
+				<!-- Add cabs for sale -->
+				<!-- Scout -->
+				<Item
+					PosX="5"
+					PosY="40"
+					Flags="16"
+					Prototype="gdeScoutCab01" />
+				<Item
+					PosX="5"
+					PosY="45"
+					Flags="16"
+					Prototype="gdeScoutCab02" />
+				<Item
+					PosX="5"
+					PosY="50"
+					Flags="16"
+					Prototype="gdeScoutCab03" />
+					
+				<Item
+					PosX="5"
+					PosY="55"
+					Flags="16"
+					Prototype="gdeScoutCargo01" />
+				<Item
+					PosX="5"
+					PosY="60"
+					Flags="16"
+					Prototype="gdeScoutCargo02" />
+					
+					
+					
 			</CabinsAndBaskets>
 
 			<Vehicles>
@@ -576,6 +611,20 @@
 
 					<Repository />
 				</Item>
+				
+				
+				
+				<!-- GDE MOD 20230216 -->
+				<!-- Add Vehicles for sale -->
+				<Item
+					PosX="0"
+					PosY="0"
+					Flags="16"
+					Prototype="gdeScoutForSale">
+				</Item>
+				
+				
+				
 			</Vehicles>
 		</Object>
 
@@ -815,145 +864,9 @@
 					PosY="40"
 					Flags="16"
 					Prototype="bugCab02" />
-					
-					
-					
-				<!-- GDE MOD 20230210 -->
-				<!-- Add cabs for sale -->
-				<!-- Scout -->
-				<Item
-					PosX="5"
-					PosY="40"
-					Flags="16"
-					Prototype="gdeScoutCab01" />
-				<Item
-					PosX="5"
-					PosY="45"
-					Flags="16"
-					Prototype="gdeScoutCab02" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeScoutCab03" />
-				<Item
-					PosX="5"
-					PosY="55"
-					Flags="16"
-					Prototype="gdeScoutCargo01" />
-				<Item
-					PosX="5"
-					PosY="60"
-					Flags="16"
-					Prototype="gdeScoutCargo02" />
-					
-				<!-- Fighter -->
-				<Item
-					PosX="5"
-					PosY="40"
-					Flags="16"
-					Prototype="gdeFighterCab01" />
-				<Item
-					PosX="5"
-					PosY="45"
-					Flags="16"
-					Prototype="gdeFighterCab02" />
-			
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo02" />
-				
-				<!-- Hunter -->
-				<Item
-					PosX="5"
-					PosY="40"
-					Flags="16"
-					Prototype="gdeHunterCab01" />
-				<Item
-					PosX="5"
-					PosY="45"
-					Flags="16"
-					Prototype="gdeHunterCab03" />
-			
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeHunterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeHunterCargo02" />
-					
-				<!-- Cruiser -->
-				<Item
-					PosX="5"
-					PosY="40"
-					Flags="16"
-					Prototype="gdeCruiserCab01" />
-				<Item
-					PosX="5"
-					PosY="45"
-					Flags="16"
-					Prototype="gdeCruiserCab02" />
-			
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeCruiserCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeCruiserCargo02" />
-				
 			</CabinsAndBaskets>
 
-
-
-			<!-- GDE MOD 20230210 -->
-			<!-- Add Vehicles for sale -->
-			<Vehicles>
-				<Item
-					PosX="0"
-					PosY="0"
-					Flags="16"
-					Prototype="gdeScoutForSale">
-				</Item>
-				
-				<Item
-					PosX="0"
-					PosY="0"
-					Flags="16"
-					Prototype="gdeFighterForSale">
-				</Item>
-				
-				<Item
-					PosX="0"
-					PosY="0"
-					Flags="16"
-					Prototype="gdeHunterForSale">
-				</Item>
-				
-				<Item
-					PosX="0"
-					PosY="0"
-					Flags="16"
-					Prototype="gdeCruiserForSale">
-				</Item>
-			</Vehicles>
-			
-			
-			
+			<Vehicles />
 		</Object>
 
 		<Object
