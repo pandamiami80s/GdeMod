@@ -2155,7 +2155,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			EngineHighSound		        = "ET_S_ENGINE_SCOUT_1_HIGH"
 			MaxTorque			= "40"
 			Price				= "1400"	
-			MaxSpeed			= "110.0"
+			MaxSpeed			= "100.0"
 			LoadPoints			= "LP_SML01" >
 			
 			
@@ -2194,7 +2194,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxTorque			= "50"
 			Price				= "2000"	
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-			MaxSpeed			= "100.0"
+			MaxSpeed			= "110.0"
 			LoadPoints			= "LP_SML01" >
 			
 			
@@ -2235,7 +2235,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxTorque			= "65"
 			Price				= "2700"	
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-			MaxSpeed			= "90.0"
+			MaxSpeed			= "110.0"
 			LoadPoints			= "LP_SML01" >
 			
 			
@@ -2279,7 +2279,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxTorque			= "80"
 			Price				= "6500"	
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-			MaxSpeed			= "100.0"
+			MaxSpeed			= "120.0"
 			LoadPoints			= "LP_SML01" >
 			
 			
@@ -2314,7 +2314,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxPower			= "120"
 			MaxTorque			= "80"
 			Price				= "15000"	
-			MaxSpeed			= "100.0"
+			MaxSpeed			= "125.0"
 			LoadPoints			= "LP_SML01 LP_BIG01" >
 			
 			
@@ -2352,7 +2352,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
 			MaxTorque			= "80"
 			Price				= "12500"	
-			MaxSpeed			= "100.0"
+			MaxSpeed			= "120.0"
 			LoadPoints			= "LP_SML01 LP_BIG01" >
 			
 			
@@ -2362,6 +2362,10 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 				<Slot
 					ResourceType	= "GADGET_COMMON"
 					MaxAmount	= "1" />    
+					
+				<Slot
+					ResourceType	= "GADGET_WEAPON"
+					MaxAmount	= "1" /> 
 			</GadgetDescription>
 			
 			
@@ -2390,7 +2394,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			MaxPower			= "120"
 			MaxTorque			= "80"
 			Price				= "26000"	
-			MaxSpeed			= "100.0"
+			MaxSpeed			= "130.0"
 			LoadPoints			= "LP_GIANT01" >
 			
 			
@@ -3855,38 +3859,18 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Price				= "500"
 			RepairCoef			= "0"
 
-			Mass				= "5.0" >
-			<RepositoryDescription
-				RepositorySize		= "4 3"/>
-		</Prototype>
-		
-		<Prototype
-			Class				= "Basket"
-			Name				= "gdeScoutCargo02"
-			VisibleInEncyclopedia   = "false"
-			ModelFile			= "cub"
-			ResourceType		= "GDE_SCOUT_BASKET"
-			Durability			= "0"
-			DurCoeffsForDamageTypes	= "0 0 0"
-			NodeScale			= "1 1 1"
-			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-
-
-			Price				= "500"
-			RepairCoef			= "0"
-
-			Mass				= "5.0"
+			Mass				= "1.0"
 
 			LoadPoints			= "NO_LP" >		<!-- Add LoadPoints for Speacial Weapon -->
 			<RepositoryDescription
-				RepositorySize		= "4 3">
+				RepositorySize		= "4 4">
 				
 				
 				
 				<!-- Add Speacial Weapon Slot -->
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON"
-					Pos		= "7 7"
+					Pos		= "8 8"
 				/>
 				
 				
@@ -3895,6 +3879,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		</Prototype>
 		
 		<!-- Fighter -->
+		<!-- Cargo size is 6x6 because player need to fit all scrap metal given on these locations for repair -->
 		<Prototype
 			Class				= "Basket"
 			Name				= "gdeFighterCargo01"
@@ -3910,38 +3895,18 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Price				= "750"
 			RepairCoef			= "0"
 
-			Mass				= "5.0" >
-			<RepositoryDescription
-				RepositorySize		= "4 4"/>
-		</Prototype>
-		
-		<Prototype
-			Class				= "Basket"
-			Name				= "gdeFighterCargo02"
-			VisibleInEncyclopedia   = "false"
-			ModelFile			= "cub"
-			ResourceType		= "GDE_FIGHTER_BASKET"
-			Durability			= "0"
-			DurCoeffsForDamageTypes	= "0 0 0"
-			NodeScale			= "1 1 1"
-			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-
-
-			Price				= "750"
-			RepairCoef			= "0"
-
-			Mass				= "5.0"
+			Mass				= "1.0"
 
 			LoadPoints			= "NO_LP" >		<!-- Add LoadPoints for Speacial Weapon -->
 			<RepositoryDescription
-				RepositorySize		= "4 4">
+				RepositorySize		= "6 6">
 				
 				
 				
 				<!-- Add Speacial Weapon Slot -->
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON"
-					Pos		= "7 8"
+					Pos		= "8 8"
 				/>
 				
 				
@@ -3965,38 +3930,18 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			Price				= "1000"
 			RepairCoef			= "0"
 
-			Mass				= "5.0" >
-			<RepositoryDescription
-				RepositorySize		= "4 5"/>
-		</Prototype>
-		
-		<Prototype
-			Class				= "Basket"
-			Name				= "gdeHunterCargo02"
-			VisibleInEncyclopedia   = "false"
-			ModelFile			= "cub"
-			ResourceType		= "GDE_HUNTER_BASKET"
-			Durability			= "0"
-			DurCoeffsForDamageTypes	= "0 0 0"
-			NodeScale			= "1 1 1"
-			BlowEffect	= "ET_PS_VEH_PART_BLOW_SMALL_CAB"
-
-
-			Price				= "1000"
-			RepairCoef			= "0"
-
-			Mass				= "5.0"
+			Mass				= "1.0"
 
 			LoadPoints			= "NO_LP" >		<!-- Add LoadPoints for Speacial Weapon -->
 			<RepositoryDescription
-				RepositorySize		= "4 5">
+				RepositorySize		= "6 6">
 				
 				
 				
 				<!-- Add Speacial Weapon Slot -->
 				<Slot
 					Name		= "BASKET_SPECIAL_WEAPON"
-					Pos		= "7 8"
+					Pos		= "8 8"
 				/>
 				
 				
@@ -4008,6 +3953,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class				= "Basket"
 			Name				= "gdeCruiserCargo01"
+			VisibleInEncyclopedia   = "false"
 			ModelFile			= "cruiserCargo01"
 			ResourceType			= "CRUISER_BASKET"
 			Durability			= "140"
@@ -4040,6 +3986,7 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 		<Prototype
 			Class				= "Basket"
 			Name				= "gdeCruiserCargo02"
+			VisibleInEncyclopedia   = "false"
 			ModelFile			= "cruiserCargo02"
 			ResourceType			= "CRUISER_BASKET"
 			Durability			= "160"

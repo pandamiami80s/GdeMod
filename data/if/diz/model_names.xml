@@ -1815,12 +1815,7 @@
 		id="gdeScoutCargo01"
 		locForm="0"
 		value="Багажник Скаута" />
-		
-	<Item
-		id="gdeScoutCargo02"
-		locForm="0"
-		value="Багажник Скаута С" />
-		
+	
 	<Item
 		id="gdeScoutForSale"
 		locForm="0"
@@ -1848,12 +1843,7 @@
 		id="gdeFighterCargo01"
 		locForm="0"
 		value="Багажник Бойца" />
-		
-	<Item
-		id="gdeFighterCargo02"
-		locForm="0"
-		value="Багажник Бойца С" />
-		
+	
 	<Item
 		id="gdeFighterForSale"
 		locForm="0"
@@ -1881,12 +1871,7 @@
 		id="gdeHunterCargo01"
 		locForm="0"
 		value="Багажник Охотника" />
-		
-	<Item
-		id="gdeHunterCargo02"
-		locForm="0"
-		value="Багажник Охотника С" />
-		
+	
 	<Item
 		id="gdeHunterForSale"
 		locForm="0"

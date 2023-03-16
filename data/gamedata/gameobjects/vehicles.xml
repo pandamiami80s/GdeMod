@@ -3407,7 +3407,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class			= "Vehicle"
 		Name			= "gdeScoutForSale"
 		ParentPrototype 	= "gdeScout"
-		VisibleInEncyclopedia	= "true">
+		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "gdeScoutCab01" />
 			<Part id = "BASKET"			Prototype = "gdeScoutCargo01" />
@@ -3419,7 +3419,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class			= "Vehicle"
 		Name			= "gdeFighterForSale"
 		ParentPrototype 	= "gdeFighter"
-		VisibleInEncyclopedia	= "true">
+		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "gdeFighterCab01" />
 			<Part id = "BASKET"			Prototype = "gdeFighterCargo01" />
@@ -3431,7 +3431,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class			= "Vehicle"
 		Name			= "gdeHunterForSale"
 		ParentPrototype 	= "gdeHunter"
-		VisibleInEncyclopedia	= "true">
+		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "gdeHunterCab01" />
 			<Part id = "BASKET"			Prototype = "gdeHunterCargo01" />
@@ -3443,7 +3443,7 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		Class			= "Vehicle"
 		Name			= "gdeCruiserForSale"
 		ParentPrototype 	= "gdeCruiser"
-		VisibleInEncyclopedia	= "true">
+		VisibleInEncyclopedia	= "false">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "gdeCruiserCab01" />
 			<Part id = "BASKET"			Prototype = "gdeCruiserCargo01" />

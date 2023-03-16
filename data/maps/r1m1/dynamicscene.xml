@@ -569,18 +569,7 @@
 					PosY="50"
 					Flags="16"
 					Prototype="gdeScoutCab03" />
-					
-				<Item
-					PosX="5"
-					PosY="55"
-					Flags="16"
-					Prototype="gdeScoutCargo01" />
-				<Item
-					PosX="5"
-					PosY="60"
-					Flags="16"
-					Prototype="gdeScoutCargo02" />
-					
+				
 					
 					
 			</CabinsAndBaskets>

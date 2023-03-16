@@ -1426,17 +1426,6 @@
 					PosY="45"
 					Flags="16"
 					Prototype="gdeHunterCab03" />
-
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeHunterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeHunterCargo02" />
 					
 				<!-- Cruiser -->
 				<Item

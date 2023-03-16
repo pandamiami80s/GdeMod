@@ -372,8 +372,7 @@
 	<Item id="gdeScoutCab02"   	file="data\if\ico\InventoryDlg\gdeScout\gdeScout_cab02.dds" file1=""/>
     <Item id="gdeScoutCab03"   	file="data\if\ico\InventoryDlg\gdeScout\gdeScout_cab03.dds" file1=""/>
 	<Item id="gdeScoutCargo01" 	file="data\if\ico\InventoryDlg\gdeScout\gdeScout_cargo01.dds" file1=""/>
-	<Item id="gdeScoutCargo02" 	file="data\if\ico\InventoryDlg\gdeScout\gdeScout_cargo02.dds" file1=""/>
-   
+	
 	<!-- Fighter -->
 	<Item id="gdeFighterCab01"  file="data\if\ico\InventoryDlg\gdeFighter\gdeFighter_cab01.dds" file1=""/>
 	<Item id="gdeFighterCab02"  file="data\if\ico\InventoryDlg\gdeFighter\gdeFighter_cab02.dds" file1=""/>
@@ -381,8 +380,7 @@
 	<Item id="gdeFighterCab03"   	file="data\if\ico\InventoryDlg\gdeFighter\gdeFighter_cab02.dds" file1=""/> 
 	-->
 	<Item id="gdeFighterCargo01" 	file="data\if\ico\InventoryDlg\gdeFighter\gdeFighter_cargo01.dds" file1=""/>
-	<Item id="gdeFighterCargo02"	file="data\if\ico\InventoryDlg\gdeFighter\gdeFighter_cargo02.dds" file1=""/>
-   
+	
 	<!-- Hunter -->
 	<Item id="gdeHunterCab01"    	file="data\if\ico\InventoryDlg\gdeHunter\gdeHunter_cab01.dds" file1=""/>
 	<!-- 
@@ -390,8 +388,7 @@
 	-->
 	<Item id="gdeHunterCab03"   	file="data\if\ico\InventoryDlg\gdeHunter\gdeHunter_cab03.dds" file1=""/> 
 	<Item id="gdeHunterCargo01" 	file="data\if\ico\InventoryDlg\gdeHunter\gdeHunter_cargo01.dds" file1=""/>
-	<Item id="gdeHunterCargo02" 	file="data\if\ico\InventoryDlg\gdeHunter\gdeHunter_cargo02.dds" file1=""/>
-   
+	
 	<!-- Cruiser -->
 	<Item id="gdeCruiserCab01"    	file="data\if\ico\InventoryDlg\gdeCruiser\gdeCruiser_cab01.dds" file1=""/>
 	<Item id="gdeCruiserCab02"   	file="data\if\ico\InventoryDlg\gdeCruiser\gdeCruiser_cab02.dds" file1=""/>

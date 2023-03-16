@@ -88,6 +88,9 @@ function GiveVehicle(num)
 		model="RobotBobot02"
 	elseif num==25 then
 		model="RobotMetatron"
+
+
+
 	elseif num==30 then
 		model="gdeScoutForSale"
 	elseif num==31 then
@@ -96,6 +99,9 @@ function GiveVehicle(num)
 		model="gdeHunterForSale"
 	elseif num==33 then
 		model="gdeCruiserForSale"
+		
+		
+		
 	end
 	AddPlayerVehicle(model)
 end

@@ -476,17 +476,6 @@
 					Flags="16"
 					Prototype="gdeFighterCab02" />
 
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo02" />
-
 				<!-- Hunter -->
 				<Item
 					PosX="5"
@@ -498,18 +487,7 @@
 					PosY="45"
 					Flags="16"
 					Prototype="gdeHunterCab03" />
-
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeHunterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeHunterCargo02" />
-					
+				
 					
 					
 			</CabinsAndBaskets>
@@ -973,18 +951,7 @@
 					PosY="45"
 					Flags="16"
 					Prototype="gdeFighterCab02" />
-
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo02" />
-
+				
 				<!-- Hunter -->
 				<Item
 					PosX="5"
@@ -996,17 +963,6 @@
 					PosY="45"
 					Flags="16"
 					Prototype="gdeHunterCab03" />
-
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeHunterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeHunterCargo02" />
 					
 					
 					

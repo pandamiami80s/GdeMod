@@ -321,18 +321,7 @@
 					PosY="50"
 					Flags="16"
 					Prototype="gdeScoutCab03" />
-					
-				<Item
-					PosX="5"
-					PosY="55"
-					Flags="16"
-					Prototype="gdeScoutCargo01" />
-				<Item
-					PosX="5"
-					PosY="60"
-					Flags="16"
-					Prototype="gdeScoutCargo02" />
-					
+				
 				<!-- Fighter -->
 				<Item
 					PosX="5"
@@ -345,17 +334,6 @@
 					Flags="16"
 					Prototype="gdeFighterCab02" />
 
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo02" />
-					
 					
 
 			</CabinsAndBaskets>
@@ -1063,17 +1041,6 @@
 					Flags="16"
 					Prototype="gdeScoutCab03" />
 					
-				<Item
-					PosX="5"
-					PosY="55"
-					Flags="16"
-					Prototype="gdeScoutCargo01" />
-				<Item
-					PosX="5"
-					PosY="60"
-					Flags="16"
-					Prototype="gdeScoutCargo02" />
-					
 				<!-- Fighter -->
 				<Item
 					PosX="5"
@@ -1086,17 +1053,6 @@
 					Flags="16"
 					Prototype="gdeFighterCab02" />
 
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo02" />
-					
 					
 					
 			</CabinsAndBaskets>
@@ -1476,18 +1432,7 @@
 					PosY="50"
 					Flags="16"
 					Prototype="gdeScoutCab03" />
-					
-				<Item
-					PosX="5"
-					PosY="55"
-					Flags="16"
-					Prototype="gdeScoutCargo01" />
-				<Item
-					PosX="5"
-					PosY="60"
-					Flags="16"
-					Prototype="gdeScoutCargo02" />
-					
+				
 				<!-- Fighter -->
 				<Item
 					PosX="5"
@@ -1499,18 +1444,7 @@
 					PosY="45"
 					Flags="16"
 					Prototype="gdeFighterCab02" />
-
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo01" />
-				<Item
-					PosX="5"
-					PosY="50"
-					Flags="16"
-					Prototype="gdeFighterCargo02" />
-	
+				
 	
 					
 			</CabinsAndBaskets>

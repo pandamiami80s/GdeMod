@@ -72,7 +72,7 @@ $Id: ResourceTypes.xml,v 1.55 2005/11/28 07:43:56 anton Exp $
 			
 			
 			<!-- GDE MOD 20230211 -->
-			<!-- Add new type for Basket -->
+			<!-- Add new type for Basket to drive from -->
 			<Type Name="GDE_SCOUT_BASKET" />
 			<Type Name="GDE_FIGHTER_BASKET" />
 			<Type Name="GDE_HUNTER_BASKET" />
