@@ -2446,11 +2446,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount	= "1" />
+					MaxAmount	= "2" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount	= "3" />         
+					MaxAmount	= "2" />         
 			</GadgetDescription>
 			
 			
@@ -2488,11 +2488,11 @@ $Id: VehicleParts.xml,v 1.80 2005/11/28 07:43:57 anton Exp $
 			<GadgetDescription>
 				<Slot
 					ResourceType	= "GADGET_COMMON"
-					MaxAmount	= "3" />
+					MaxAmount	= "1" />
 
 				<Slot
 					ResourceType	= "GADGET_WEAPON"
-					MaxAmount	= "1" />         
+					MaxAmount	= "3" />         
 			</GadgetDescription>
 			
 			
